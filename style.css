@@ -1,0 +1,444 @@
+body {
+    background-color: white;
+    padding-top: 50px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  /* column-width: 12em;
+  column-count: 2;
+  column-gap: 1em;
+  column-rule: thin solid black; */
+}
+
+.body-2{
+    background-image: url("thinkerbg.png");
+}
+
+/* Hyperlink Styling  */
+a:active{
+    text-decoration: none; 
+    color: magenta; 
+}
+a:visited { 
+    text-decoration: none; 
+    color: magenta; 
+   }
+a:hover { text-decoration: none; color:rgb(0, 255, 0); }
+a:focus { text-decoration: none; color:rgb(204, 0, 255); }
+a:active { text-decoration: none; color:magenta; }
+
+/* Fonts */
+
+@font-face {
+    font-family: thintext;
+    src: url(static/RobotoMono-Thin.ttf);}
+
+@font-face {
+    font-family: semiBI;
+    src: url(static/RobotoMono-SemiBoldItalic.ttf);}
+@font-face {
+    font-family: mediumfont;
+    src: url(static/RobotoMono-Medium.ttf);}
+
+@font-face {
+    font-family: boldfontitalic;
+    src: url(static/RobotoMono-BoldItalic.ttf);}
+
+@font-face {
+    font-family: boldfont2;
+    src: url(static/RobotoMono-Bold.ttf);}
+
+
+@font-face {
+    font-family: altreg;
+    src: url(static/RobotoMono-Regular.ttf);}
+
+ @font-face {
+    font-family: boldfont1;
+    src: url(fonts/webfonts/JetBrainsMono-ExtraBold.woff2);}
+
+@font-face {
+    font-family: thinfont;
+    src: url(fonts/webfonts/JetBrainsMono-Light.woff2);}
+
+@font-face {
+    font-family: regular;
+    color:white;
+    src: url(fonts/webfonts/JetBrainsMono-Regular.woff2); 
+}
+
+/* Text Formating */
+
+h1{
+    column-span: all;
+    column-fill: all;
+    font-size: 800vw;
+    color:black ;
+    padding-left:0.3cm;
+    font-family:boldfont2;
+    border-width:3px;
+    border-style:solid;
+    border-color:black;
+    width: 340px;
+    
+}
+
+h2{
+    font-size: medium;
+    color:black;
+    font-family: boldfontitalic;
+}
+
+h3{
+    font-size: x-large;
+    color:blue;
+    font-family: mediumfont;
+}
+
+h4{
+    font-size: large;
+    color:cyan;
+    background-color: blue;
+    font-family: SemiBI;
+}
+
+h5{
+    /* column-span: all;
+    column-fill: all; */
+    padding-left: 0%;
+    padding-top: 0;
+    font-size: 100px;
+    color:cyan;
+    font-family:boldfont2;
+    /* width: 280pt */
+}
+
+h6{
+    /* column-span: all;
+    column-fill: all; */
+    padding-left: 20%;
+    padding-top: 0;
+    padding-bottom: 20%;
+    font-size: 100px;
+    color:white;
+    font-family:boldfontitalic;
+    /* width: 280pt */
+}
+
+.hover-text {
+    font-size:100px;
+    color:blue ;
+    
+    font-family:boldfont2;
+  }
+  
+p{
+    font-size: medium;
+    color:black;
+    font-family: altreg;
+}
+
+
+
+.note-text{
+    font-size: large;
+    color: cyan;
+    background-color: rgb(0, 0, 0);
+    font-family: altreg;
+}
+
+.text-1 {
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+}
+
+.text-2 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-width:3px;
+    border-style:solid;
+    border-color:black;
+    width: 400pt;
+}
+
+.text-3 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-width:3px;
+    border-style:solid;
+    width:400px;
+    background-color: blue;
+    color: white;
+}
+
+.text-4 {
+    background-image: url("tedpixilated.png"); 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-width:3px;
+    border-style:solid;
+    border-color:magenta;
+    width: 280px;
+    color: magenta;
+}
+
+.text-5 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-width: 3px;
+    border-style:solid;
+    border-color:magenta;
+    width: 200pt;
+}
+
+.text-6 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-width:3px;
+    border-style:solid;
+    border-color:cyan;
+    width: 400pt;
+}
+
+.text-spaceimg {
+    column-span: all;
+    background-image: url("imgs/stardust.jpg"); 
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-width:3px;
+    border-style:solid;
+    border-color:magenta;
+    width: 400pt;
+}
+
+
+footer {
+    list-style-type: none;
+    font-family: thinfont;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    text-align: center;
+    src: url(fonts/webfonts/JetBrainsMono-Thin.woff2);
+}
+
+
+/* iframe formating  */
+.window
+{
+    cursor: grab;
+    position: absolute;
+    background-color: blue;
+    padding: 2px;
+    border: 2px solid black;
+    /* top: 10px;
+    left: 50px; */
+    color:white;
+}   
+iframe
+{
+    position: relative;
+    padding: 2px;
+    background-color: transparent;
+    border: black;
+    width: 30vw;
+    height:40vw;
+    box-align: right;
+    font-family: regular;
+    src: url(fonts/webfonts/JetBrainsMono-Regular.woff2);
+    color:white;
+  
+}
+.close
+{
+    background: none;
+    color: white;
+    border: none;
+  margin: 5px;
+  float: left;
+  width: 50px;
+  height: 20px;
+}
+#resize
+{
+    width: 70vw;
+}
+.window:hover
+{
+    cursor: move;
+}
+
+/* image formating */
+
+.img-1 {
+    width: 15px;
+}
+
+.animated-gif {
+    width: 550px !important;
+    height: auto;
+}
+
+.img-style{
+    width: 50%;
+    position: relative;
+  top: 20px;
+  left: 400px;
+}
+
+.draggable {
+}
+
+.png_drag:hover {
+    cursor: hand;
+    border: 3px dotted #666;
+
+/* 
+    height: 2em;
+	width: 300px;
+	max-width: 100%;
+
+    padding: 0.5vw;
+	margin-bottom: 0.5vw;
+
+	z-index: 1;
+
+	box-shadow: rgba( 0, 0, 0, 0.3 ) 0px 0px 1px 1px;  */
+}
+
+
+
+.hovertext {
+    --tw-text-opacity: 1;
+    color: rgb(205 63 37/var(--tw-text-opacity))
+}
+
+/* Navigation Style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: thinfont;
+    src: url(fonts/webfonts/JetBrainsMono-Thin.woff2);
+    text-decoration: dotted;
+  }
+ ::selection
+ {
+    background-color: magenta;
+}
+/* ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+
+
+/* page formatting  */
+.main-nav
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}  
+
+.flex-1{
+        display: flex;  
+        flex-wrap: wrap;
+}
+
+
+
+.div-1{
+    background-image: url("VISUALCONNECTIONS.png");
+    background-color: white;
+    padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.back-space{
+
+        background-image: url("imgs/nasaspace.jpg");
+        background-color: red;
+
+}
+.div-2{
+    /* background-image: url("visible_cons.png"); */
+    background-color: white;
+    padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  column-width: 12em;
+  column-count: 2;
+  column-gap: 1em;
+  /* column-rule: thin solid black;  */
+}
+
+.div-3{
+
+    padding-top: 0px;
+  padding-right: 50vw;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.div-4{
+
+    padding-top: 0px;
+  padding-right: 90px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+
+
+.navlist
+{
+    position:fixed;
+    z-index: 100;
+
+}
+.dropbtn
+{
+    background: white;
+    color: blue;
+}
+
+button.dropbtn {
+    font-size: medium;
+    font-family: 'mediumfont';
+    border: none;
+}
+
+.drop-content
+{
+    display: none;
+    border: 1px solid black;
+    width: max-content;
+    padding: 10px;
+    background-color: white;
+}
+.navlist:hover .drop-content
+{
+    display: block;
+}
+.navlist:hover
+{
+    content: 'nav ↓';
+}
